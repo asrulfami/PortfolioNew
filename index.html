@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio</title>
+  <meta name="web3forms-key" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="#home"><span class="brand-accent">●</span> Portofolio</a>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a id="navHome" href="#home" class="nav-link active">Beranda</a></li>
+          <li><a id="navAbout" href="#about" class="nav-link">Tentang</a></li>
+          <li><a id="navEdu" href="#education" class="nav-link">Pendidikan</a></li>
+          <li><a id="navProjects" href="#projects" class="nav-link">Proyek</a></li>
+          <li><a id="navContact" href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+      <div class="lang-toggle" id="langToggle">
+        <button id="langID" aria-label="Bahasa Indonesia" class="lang-btn active">ID</button>
+        <button id="langEN" aria-label="English" class="lang-btn">EN</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container grid-2">
+        <div data-animate>
+          <h1 class="title">Halo, saya <span class="text-gradient">Asrul Fami</span></h1>
+          <p id="heroSubtitle" class="subtitle">Full‑stack developer focused on scalable web applications and applied machine learning. Experienced building secure backends with Laravel, delivering responsive UIs with Tailwind CSS and Bootstrap, and integrating real‑time recognition systems using Flask and MediaPipe.</p>
+          <div class="actions">
+            <a id="viewProjects" href="#projects" class="btn btn-primary">Lihat Proyek</a>
+            <a id="contactMe" href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-art" data-animate>
+          <figure class="hero-photo">
+            <img src="images/Project/Fotoaku.jpg" alt="Foto Asrul Fami" loading="lazy" onerror="this.remove();">
+          </figure>
+          <div class="orb orb-1"></div>
+          <div class="orb orb-2"></div>
+          <div class="card hero-card">
+            <div class="stat">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Tahun Pengalaman</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">20+</div>
+              <div class="stat-label">Proyek</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" data-animate>
+      <div class="container">
+        <h2 id="aboutTitle" class="section-title">Tentang</h2>
+        <p id="aboutDesc" class="section-desc">Saya adalah seorang pengembang web yang berdedikasi untuk membangun antarmuka bersih, cepat, dan intuitif dengan mengintegrasikan keahlian pengembangan front-end dan back-end. Saya sangat mengutamakan performa, aksesibilitas, dan estetika minimalis dalam setiap proyek, serta memanfaatkan teknologi AI dan metodologi desain modern untuk menciptakan solusi digital yang efisien. Dengan pendekatan yang terstruktur dalam manajemen kode, infrastruktur jaringan, hingga dokumentasi teknis, saya berkomitmen untuk menghasilkan produk yang tidak hanya fungsional secara teknis, tetapi juga memberikan pengalaman pengguna yang bermakna.</p>
+        <div class="tools-grid">
+          <div class="tool-item"><img src="images/tools/ai.png" alt="AI" loading="lazy" onerror="this.remove();"><span>AI</span></div>
+          <div class="tool-item"><img src="images/tools/bootstrap.png" alt="Bootstrap" loading="lazy" onerror="this.remove();"><span>Bootstrap</span></div>
+          <div class="tool-item"><img src="images/tools/github.png" alt="GitHub" loading="lazy" onerror="this.remove();"><span>GitHub</span></div>
+          <div class="tool-item"><img src="images/tools/html.svg" alt="HTML" loading="lazy" onerror="this.remove();"><span>HTML</span></div>
+          <div class="tool-item"><img src="images/tools/css.svg" alt="CSS" loading="lazy" onerror="this.remove();"><span>CSS</span></div>
+          <div class="tool-item"><img src="images/tools/js.png" alt="JavaScript" loading="lazy" onerror="this.remove();"><span>JavaScript</span></div>
+          <div class="tool-item"><img src="images/tools/Laravel.png" alt="Laravel" loading="lazy" onerror="this.remove();"><span>Laravel</span></div>
+          <div class="tool-item"><img src="images/tools/MySQL.png" alt="MySQL" loading="lazy" onerror="this.remove();"><span>MySQL</span></div>
+          <div class="tool-item"><img src="images/tools/nextjs.png" alt="Next.js" loading="lazy" onerror="this.remove();"><span>Next.js</span></div>
+          <div class="tool-item"><img src="images/tools/nodejs.png" alt="Node.js" loading="lazy" onerror="this.remove();"><span>Node.js</span></div>
+          <div class="tool-item"><img src="images/tools/PHP.png" alt="PHP" loading="lazy" onerror="this.remove();"><span>PHP</span></div>
+          <div class="tool-item"><img src="images/tools/Python.png" alt="Python" loading="lazy" onerror="this.remove();"><span>Python</span></div>
+          <div class="tool-item"><img src="images/tools/reactjs.png" alt="React" loading="lazy" onerror="this.remove();"><span>React</span></div>
+          <div class="tool-item"><img src="images/tools/tailwind.png" alt="Tailwind CSS" loading="lazy" onerror="this.remove();"><span>Tailwind CSS</span></div>
+          <div class="tool-item"><img src="images/tools/vscode.png" alt="VS Code" loading="lazy" onerror="this.remove();"><span>VS Code</span></div>
+          <div class="tool-item"><img src="images/tools/XAMPP.png" alt="XAMPP" loading="lazy" onerror="this.remove();"><span>XAMPP</span></div>
+          <div class="tool-item"><img src="images/tools/cisco-packet-tracer.svg" alt="Cisco Packet Tracer" loading="lazy" onerror="this.remove();"><span>Cisco</span></div>
+          <div class="tool-item"><img src="images/tools/canva.png" alt="Canva" loading="lazy" onerror="this.remove();"><span>Canva</span></div>
+          <div class="tool-item"><img src="images/tools/DrawIo.png" alt="draw.io" loading="lazy" onerror="this.remove();"><span>draw.io</span></div>
+          <div class="tool-item"><img src="images/tools/word.png" alt="Word" loading="lazy" onerror="this.remove();"><span>Word</span></div>
+          <div class="tool-item"><img src="images/tools/excel.png" alt="Excel" loading="lazy" onerror="this.remove();"><span>Excel</span></div>
+          <div class="tool-item"><img src="images/tools/figma.png" alt="Figma" loading="lazy" onerror="this.remove();"><span>Figma</span></div>
+          <div class="tool-item"><img src="images/tools/Notion.png" alt="Notion" loading="lazy" onerror="this.remove();"><span>Notion</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" data-animate>
+      <div class="container">
+        <h2 id="projectsTitle" class="section-title">Proyek Pilihan</h2>
+        <div id="projects-list" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="education" class="section" data-animate>
+      <div class="container">
+        <h2 id="educationTitle" class="section-title">Pendidikan</h2>
+        <div class="edu-grid">
+          <article class="edu-card">
+            <div class="edu-media">
+              <img src="images/Project/smk.jpg" alt="SMK" loading="lazy" onerror="this.remove();">
+            </div>
+            <div class="edu-body">
+              <h3 id="eduSmkTitle">SMK</h3>
+              <p id="eduSmkTime" class="edu-time">2019–2022</p>
+              <p id="eduSmkDesc" class="edu-desc">I attended high school at SMK Telkom Sandhy Putra Jakarta, majoring in Computer Network Engineering. I graduated with an average grade of 86.67.</p>
+            </div>
+          </article>
+          <article class="edu-card">
+            <div class="edu-media">
+              <img src="images/Project/umb.png" alt="Universitas" loading="lazy" onerror="this.remove();">
+            </div>
+            <div class="edu-body">
+              <h3 id="eduUniTitle">Universitas</h3>
+              <p id="eduUniTime" class="edu-time">2022–Sekarang</p>
+              <p id="eduUniDesc" class="edu-desc">I am attending university at Mercu Buana, majoring in Informatics Engineering. My current GPA is 3.70.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" data-animate>
+      <div class="container">
+        <h2 id="contactTitle" class="section-title">Kontak</h2>
+        <p id="contactDesc" class="section-desc">Ingin kolaborasi atau ada pertanyaan? Kirim pesan.</p>
+        <form class="form" action="#" method="post">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+          <button id="submitBtn" type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+        <div class="social-icons">
+          <a class="social-item" href="https://github.com/asrulfami" target="_blank" rel="noopener" aria-label="GitHub">
+            <img src="images/Tools/github.png" alt="GitHub" loading="lazy" onerror="this.remove();"><span>GitHub</span>
+          </a>
+          <a class="social-item" href="https://www.linkedin.com/in/asrul-fami-5b6126235/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="images/Tools/LinkedIn.png" alt="LinkedIn" loading="lazy" onerror="this.remove();"><span>LinkedIn</span>
+          </a>
+          <a class="social-item" href="https://www.instagram.com/asrulfami/" target="_blank" rel="noopener" aria-label="Instagram">
+            <img src="images/Tools/Instagram.png" alt="Instagram" loading="lazy" onerror="this.remove();"><span>Instagram</span>
+          </a>
+          <a class="social-item" href="mailto:asrulfami0912@gmail.com" aria-label="Gmail">
+            <img src="images/Tools/gmail.png" alt="Gmail" loading="lazy" onerror="this.remove();"><span>Gmail</span>
+          </a>
+          <a class="social-item" href="https://wa.me/62895383241172" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <img src="images/Tools/Whatsapp.jpg" alt="WhatsApp" loading="lazy" onerror="this.remove();"><span>WhatsApp</span>
+          </a>
+        </div>
+        <div class="contact-info">
+          <a class="contact-item" href="mailto:asrulfami0912@gmail.com">📧 asrulfami0912@gmail.com</a>
+          <a class="contact-item" href="tel:+62895383241172">📞 +62 895-3832-41172</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="toTop" class="to-top" aria-label="Kembali ke atas">↑</button>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Portofolio. Asrul Fami.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <noscript>Aktifkan JavaScript untuk pengalaman terbaik.</noscript>
+</body>
+</html>
